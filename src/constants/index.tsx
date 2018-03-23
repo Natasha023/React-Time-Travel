@@ -1,0 +1,17 @@
+export const INCREMENT_ENTHUSIASM = 'INCREMENT_ENTHUSIASM';
+export type INCREMENT_ENTHUSIASM = typeof INCREMENT_ENTHUSIASM;
+
+export const DECREMENT_ENTHUSIASM = 'DECREMENT_ENTHUSIASM';
+export type DECREMENT_ENTHUSIASM = typeof DECREMENT_ENTHUSIASM;
+
+export const START_TIMER = 'START_TIMER';
+export type START_TIMER = typeof START_TIMER;
+ 
+export const STOP_TIMER = 'STOP_TIMER';
+export type STOP_TIMER = typeof STOP_TIMER; 
+
+export const CLEAR_TIMER = 'CLEAR_TIMER';
+export type CLEAR_TIMER = typeof CLEAR_TIMER;
+
+export const TIMER_TICKER = 'TIMER_TICKER';
+export type TIMER_TICKER = typeof TIMER_TICKER;
