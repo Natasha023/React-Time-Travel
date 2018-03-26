@@ -17,6 +17,7 @@ export function enthusiasm(state: StoreState, action: EnthusiasmAction ): StoreS
 }
 
 export function timerReducer(state: TimeState, action: TimerAction): TimeState {
+    debugger;
     switch (action.type) {
       case START_TIMER:
             return {...state, start: true};
